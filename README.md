@@ -1,32 +1,17 @@
-# You've added your first Readme file!
-A README.md file is intended to quickly orient readers to what your project can do.  New to Markdown? [Learn more](http://go.microsoft.com/fwlink/p/?LinkId=524306&clcid=0x409)
+# auto-screengrab
 
-## Edit this README and commit your change to a topic branch
-In Git, branches are cheap.  You should use them whenever you're making changes to your repository.  Edit this file by clicking on the edit icon.
+For automated spying. Unethical use prohibited.
 
-Then make some changes to this README file.
+## Building
 
-> Make some **edits** to _this_ blockquote
+Use Visual Studio. Pre-built curl is included, or build your own, I guess.
 
-When you are done, click the dropdown arrow next to the save button - that will allow you to commit your changes to a new branch.
+## Using
 
-## Create a pull request to contribute your changes back into master
-Pull requests are the way to move changes from a topic branch back into the master branch.
+Configuration is through the registry. All values are strings under `HKCU\SOFTWARE\auto-screengrab`.
 
-Click on the **Pull Requests** page in the **CODE** hub, then click "New Pull Request" to create a new pull request from your topic branch to the master branch.
-
-When you are done adding details, click "Create Pull request". Once a pull request is sent, reviewers can see your changes, recommend modifications, or even push follow-up commits.
-
-First time creating a pull request?  [Learn more](http://go.microsoft.com/fwlink/?LinkId=533211&clcid=0x409)
-
-### Congratulations! You've completed the grand tour of the CODE hub!
-
-# Next steps
-
-If you haven't done so yet:
-* [Install Visual Studio](http://go.microsoft.com/fwlink/?LinkId=309297&clcid=0x409&slcid=0x409)
-* [Install Git](http://git-scm.com/downloads)
-
-Then clone this repo to your local machine to get started with your own project.
-
-Happy coding!
+* `smtp_url`: smtps://smtp.gmail.com:465
+* `smtp_user`: myusername@gmail.com
+* `smtp_pass`: hunter2
+* `smtp_from`: myusername@gmail.com
+* `smtp_to`: yourusername@gmail.com
